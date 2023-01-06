@@ -46,7 +46,7 @@ async function getMovie() {
       img.src = movie.Poster;
   
       card.querySelector(".card-title").innerHTML = movie.Title;
-      card.querySelector(".card-text").innerText = `Creation date ${movie.Year}`
+      card.querySelector(".card-text").innerText = `Date ${movie.Year}`
   
       document.body.append(card)
     })
